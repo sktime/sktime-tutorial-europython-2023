@@ -1,0 +1,2 @@
+sktime[all_extras]==0.18.0
+mlflavors==0.1.0
