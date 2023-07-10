@@ -10,7 +10,7 @@ This tutorial is about [sktime] - a unified framework for machine learning with 
 This is an introductory `sktime` half-day tutorial with:
 
 * a general introduction to `sktime`
-* forecasting with `sktime` - uni/multivariate, hierarchical/global
+* forecasting with `sktime` - uni/multivariate, hierarchical/global, probabilistic
 * feature extraction, transformation pipelines, parameter tuning, autoML
 * time series classification, regression, and clustering with `sktime`
 * customizing time series distances, kernels, time series aligners and alignment distances
