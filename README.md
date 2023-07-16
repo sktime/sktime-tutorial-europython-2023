@@ -88,7 +88,7 @@ To clone the repository locally:
 1. Create a python virtual environment:
 `conda create -y -n europython_sktime python=3.9`
 2. Install required packages:
-`conda install -y -n europython_sktime pip sktime seaborn jupyter pmdarima statsmodels`
+`conda install -y -n europython_sktime pip sktime seaborn jupyter pmdarima statsmodels dtw-python`
 3. Activate your environment:
 `conda activate europython_sktime`
 4. If using jupyter: make the environment available in jupyter:
@@ -101,6 +101,6 @@ To clone the repository locally:
 2. Activate your environment:
 `source europython_sktime/bin/activate`
 3. Install the requirements:
-`pip install sktime seaborn jupyter pmdarima statsmodels`
+`pip install sktime seaborn jupyter pmdarima statsmodels dtw-python`
 4. If using jupyter: make the environment available in jupyter:
 `python -m ipykernel install --user --name=europython_sktime`
