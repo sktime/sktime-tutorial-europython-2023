@@ -3,7 +3,7 @@
 Welcome to the sktime tutorial at Europython 2023
 =================================================
 
-This tutorial is about [sktime] - a unified framework for machine learning with time series. sktime contains alrgoithms and tools for building, applying, evaluating modular pipelines and composites for a variety of time series learning tasks, including forecasting, classification, regression.
+This tutorial is about [sktime] - a unified framework for machine learning with time series. sktime contains algorithms and tools for building, applying, evaluating modular pipelines and composites for a variety of time series learning tasks, including forecasting, classification, regression.
 
 `sktime` is easily extensible by anyone, and interoperable with the pydata/numfocus stack.
 
@@ -14,12 +14,12 @@ This is an introductory `sktime` half-day tutorial with:
 * feature extraction, transformation pipelines, parameter tuning, autoML
 * time series classification, regression, and clustering with `sktime`
 * customizing time series distances, kernels, time series aligners and alignment distances
-* engineering topics: interfaces, estimator and dependency management, writing `sktime` compatible 3rd party estimators
+* engineering topics: APIs, estimator and dependency management, writing `sktime` compatible 3rd party estimators
 * deploying `sktime` in production using `mlflow` with the `mlflavours` plugin
 
 [sktime]: https://sktime.net
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-tutorial-europython-2023/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-tutorial-europython-2023/main?filepath=notebooks)
 
 ## :rocket: How to get started
 
@@ -31,7 +31,7 @@ You have different options how to run the tutorial notebooks:
 * Run the notebooks on your machine. [Clone] this repository, get [conda], install the required packages (`sktime`, `seaborn`, `jupyter`) in an environment, and open the notebooks with that environment. For detail instructions, see below. For troubleshooting, see sktime's more detailed [installation instructions].
 * or, use python venv, and/or an editable install of this repo as a package. Instructions below.
 
-[Binder]: https://mybinder.org/v2/gh/sktime/sktime-tutorial-pydata-global-2022/main?filepath=notebooks
+[Binder]: https://mybinder.org/v2/gh/sktime/sktime-tutorial-europython-2023/main?filepath=notebooks
 [clone]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 [conda]: https://docs.conda.io/en/latest/
 [installation instructions]: https://www.sktime.net/en/latest/installation.html
@@ -67,6 +67,8 @@ We invite anyone to get involved as a developer, user, supporter (or any combina
 If you're interested in contributing to sktime, you can find out more how to get involved [here](https://www.sktime.net/en/latest/get_involved.html).
 
 Any contributions are welcome, not just code!
+
+We also invite everyone to the "getting started with contributions" onboarding feature at the community sprint at EuroPython (July 22-23)!
 
 ## Installation instructions for local use
 
