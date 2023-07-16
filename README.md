@@ -5,7 +5,7 @@ Welcome to the sktime tutorial at Europython 2023
 
 This tutorial is about [sktime] - a unified framework for machine learning with time series. sktime contains algorithms and tools for building, applying, evaluating modular pipelines and composites for a variety of time series learning tasks, including forecasting, classification, regression.
 
-`sktime` is easily extensible by anyone, and interoperable with the pydata/numfocus stack.
+`sktime` is easily extensible by anyone, and interoperable with the python data science stack.
 
 This is an introductory `sktime` half-day tutorial with:
 
@@ -14,7 +14,9 @@ This is an introductory `sktime` half-day tutorial with:
 * feature extraction, transformation pipelines, parameter tuning, autoML
 * time series classification, regression, and clustering with `sktime`
 * customizing time series distances, kernels, time series aligners and alignment distances
-* engineering topics: APIs, estimator and dependency management, writing `sktime` compatible 3rd party estimators
+* engineering topics:
+    * APIs, estimator and dependency management
+    * writing `sktime` compatible 3rd party estimators
 * deploying `sktime` in production using `mlflow` with the `mlflavours` plugin
 
 [sktime]: https://sktime.net
